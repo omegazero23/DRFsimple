@@ -53,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware', # add this
-    'whitenoise.middleware.security.SecurityMiddleware', # add this
 ]
 
 ROOT_URLCONF = 'controlHours.urls'
